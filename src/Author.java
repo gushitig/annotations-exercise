@@ -4,6 +4,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Author extends Person {
     private List books;
 
@@ -27,6 +28,7 @@ public class Author extends Person {
     public void addBook(String book) {
         books.add(book);
     }
+
 
     @Override
     public String sortName() {
